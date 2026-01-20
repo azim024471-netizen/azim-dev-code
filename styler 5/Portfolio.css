@@ -12,6 +12,7 @@
 .btn{background-color: #FD6E0A;
 border: none;
 padding: 18px 35px; font-size: 20px; border-radius: 5px; font-weight: bold; color: white;
+cursor: pointer;
 
 }
 .logo h2{
@@ -24,6 +25,8 @@ padding: 18px 35px; font-size: 20px; border-radius: 5px; font-weight: bold; colo
 /* main */
 header{
     background-color:#FFF8F3; margin-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3; background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 nav{
     width:71%; max-width:1140px;
@@ -45,4 +48,26 @@ nav .menu{
     font-size: 20px; 
     color: #474747;
     text-decoration: none;
+}
+.banner{
+    /* border:2px solid tomato; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between; align-items: center;
+}
+.banner .banner-content{
+    max-width: 585px;
+}
+.banner .banner-content h2{
+font-size:45px; font-weight: 600px; color:#474747;
+margin-bottom: 5px;
+}
+.banner .banner-content h1{
+    font-size: 85px; font-weight: bold; color: #181818; margin-bottom: 20px;
+}
+.banner .banner-content p{
+    font-size: 18px; color: #757575; line-height:30px;
+}
+.banner .banner-image img{
+    max-width: 584px; vertical-align: middle;
 }

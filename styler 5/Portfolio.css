@@ -13,8 +13,23 @@
 border: none;
 padding: 18px 35px; font-size: 20px; border-radius: 5px; font-weight: bold; color: white;
 cursor: pointer;
+}
+
+.section-heading{
+    max-width: 827px; 
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px; 
+    margin-bottom: 30px;
+}
+.section-heading p{
+
+    font-size: 18px; line-height: 30px; color: #757575;
+    margin-bottom: 30px;
 
 }
+
 .logo h2{
     font-size: 45px;
     font-weight:900px;
@@ -70,4 +85,23 @@ margin-bottom: 5px;
 }
 .banner .banner-image img{
     max-width: 584px; vertical-align: middle;
+}
+.about{
+    padding-top: 140px;
+}
+.about .about-content{
+    width: 71%; max-width:1140px;
+    margin: 0 auto; text-align: center; background-color:#FFF8F3;
+    padding: 131px 156px;
+}
+.about .about-content .about-info{
+    display: flex; justify-content: space-around;
+}
+.about-info .info-card p{
+    color: #757575; line-height: 30px; font-size: 20px;
+}
+.about-info .info-card h4{
+
+font-size:20px; line-height: 30px;
+
 }
